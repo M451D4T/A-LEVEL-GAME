@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: d9221a4ae8fc1e949906151f3d819479
+guid: 91b5d66319b63cf469a0dd5b4aa3b3bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 713163285030852893
-    second: wall
-  - first:
       213: 8178937437051159178
-    second: floor
+    second: wall_0
+  - first:
+      213: 713163285030852893
+    second: stairs
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,34 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wall
+      name: wall_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 481
+        x: 17
+        y: 480
         width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d195d1faa3aa5e900800000000000000
-      internalID: 713163285030852893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: floor
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 431
-        width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,6 +113,27 @@ TextureImporter:
       bones: []
       spriteID: a82049fd34c618170800000000000000
       internalID: 8178937437051159178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d195d1faa3aa5e900800000000000000
+      internalID: 713163285030852893
       vertices: []
       indices: 
       edges: []

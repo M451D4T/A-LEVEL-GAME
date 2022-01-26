@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - enemy
+  - exitclosed
+  - exitopen
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - UI
   - blocking
   - actor
-  - 
+  - floor
   - 
   - 
   - 
@@ -40,6 +43,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: floor
+    uniqueID: 2703088815
     locked: 0
   - name: creature
     uniqueID: 3567371097
