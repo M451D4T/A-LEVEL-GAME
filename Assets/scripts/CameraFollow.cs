@@ -8,7 +8,7 @@ public class CameraFollow : MonoBehaviour
     void Awake()
     {
         player = transform.parent;
-        Debug.Log(player);
+        //Debug.Log(player);
     }
     void Update()
     {
